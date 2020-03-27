@@ -6,10 +6,10 @@ function JokeSetup(props) {
   console.log("Jokes.js - props.json[0] ", props.json[0].setup);
   const joke = props;
   console.log(joke);
+
   return (
     <>
       <div className="jokes-row">
-        {joke ? "here is your joke: " : "Infinite laughs await you..."}
         <br />
         {props.json[0].setup}
       </div>
