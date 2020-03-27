@@ -70,8 +70,8 @@ It supports a variety of filters that can be applied to get just the right jokes
 | Hooks, states etc | MVP | 4 hrs| 
 | Styling | MVP | 2| 
 | Getting support | MVP | 3hrs| 
-| Finishing up | MVP | 5hr | 
-| Total |MVP | 31 hrs| 
+| Finishing up | MVP | 4hr | 
+| Total |MVP | 26 hrs| 
 
 ### Additional Libraries
 (list supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc.) 
