@@ -14,9 +14,9 @@ _because we could all use a few more laughs these days!_ 😄
 
 ### API
 
-The API I have chosen is either 1 "Joke API" or 2 "Official Joke API" -- both return 2-part joke as object. No private key required.
+The API I have chosen is either (1) "Joke API" or 2 "Official Joke API" -- both return 2-part joke as object. No private key required.
 
-1. "[JokeAPI](https://sv443.net/jokeapi/v2) is a RESTful API that serves uniformly and well formatted jokes.
+1. **[JokeAPI](https://sv443.net/jokeapi/v2)** "is a RESTful API that serves uniformly and well formatted jokes.
 It can be used without any API token, membership, registration or payment. It supports a variety of filters that can be applied to get just the right jokes you need." [my API link](https://sv443.net/jokeapi/v2/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist&type=twopart)
 
 ```
@@ -37,7 +37,7 @@ It can be used without any API token, membership, registration or payment. It su
 }
 ```
 
-2. [Official Joke API](https://github.com/15Dkatz/official_joke_api)"The majority of these jokes were contributed by joke-loving coders around the world!" All different themes of fun jokes. [my API link]((https://official-joke-api.appspot.com/random_joke) )
+2. **[Official Joke API](https://github.com/15Dkatz/official_joke_api)** "The majority of these jokes were contributed by joke-loving coders around the world!" All different themes of fun jokes. [my API link](https://official-joke-api.appspot.com/random_joke)
 ```
 {
 "id": 354,
