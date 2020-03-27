@@ -1,5 +1,20 @@
-import React from 'react';
+import React from "react";
 
-export default function JokeSetup() {
-  return(<div>JokeSetup goes here</div>)
-};
+function JokeSetup(props) {
+  console.log("Jokes.js - props: ", props);
+  console.log("Jokes.js - props.json[0] ", props.json[0]);
+  console.log("Jokes.js - props.json[0] ", props.json[0].setup);
+  const joke = props;
+  console.log(joke);
+  return (
+    <>
+      <div className="jokes-row">
+        {joke ? "here is your joke: " : "Infinite laughs await you..."}
+        <br />
+        {props.json[0].setup}
+      </div>
+    </>
+  );
+}
+
+export default JokeSetup;

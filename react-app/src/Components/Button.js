@@ -1,14 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 
-export default function Form(props) {
-  const [joke, setJoke] = useState("");
-
-  const handleClick= e => {
+function Button(props) {
+  const handleSubmit = e => {
     e.preventDefault();
-    props.handleClick(joke);
-    setJoke("");
-    console.log("joke set to blank by form");
+    props.handleSubmit();
   };
 
-  return <button onClick={handleClick}>Click me!</button>;
+  return (
+    <button type="button" onClick={handleSubmit}>
+      get joke!
+    </button>
+  );
 }
+
+export default Button;
