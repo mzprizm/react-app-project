@@ -5,17 +5,16 @@
 ### Project Links
 
 - [carolyn's github repo](https://github.com/mzprizm/react-app-project)
-- to do after deployment -- [add deployment link]()
+- _after deployment, add link to deployed app_
 
 ### Project Description
 
-My project will be a jokes generator that serves up 2-part programming jokes using a public API. When the button is clicked, a joke is generated. After that, I might add a matching gif to go with the joke using Giphy API. I will also have an About page. This app will be mobile-first design, responsive. 
+"Infinite Jokes Generator" will serve up 2-part jokes using a public API. When the new joke button is clicked, a joke is generated. Another button will be clicked to reveal the answer. To generate another joke, click the new joke button again. Other components include About page, header/nav, possibly a footer. This app will be mobile-first design, responsive, using flexbox. Inspiration -- Example of a [dad joke generator site with motion](https://dadjokegenerator.com/)
 
 ### API
 
 The API I have chosen is [JokeAPI](https://sv443.net/jokeapi/v2) is a RESTful API that serves uniformly and well formatted jokes.
-It can be used without any API token, membership, registration or payment.
-It supports a variety of filters that can be applied to get just the right jokes you need.
+It can be used without any API token, membership, registration or payment. It supports a variety of filters that can be applied to get just the right jokes you need.
 
 ```
 {
@@ -52,7 +51,9 @@ It supports a variety of filters that can be applied to get just the right jokes
 
 #### PostMVP 
 
-- Add another API or search options, for extra fun / complexity
+- Add another API or search options, for extra fun / complexity (like funny gifs)
+- Add more exciting graphics / motion
+- sticky social shares
 
 ### Components
 | Component | Description | 
@@ -74,11 +75,11 @@ It supports a variety of filters that can be applied to get just the right jokes
 | Total |MVP | 26 hrs| 
 
 ### Additional Libraries
-(list supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc.) 
+_list supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc._ 
 
 ### Code Snippet
 
-( up to 10 lines + description)
+_up to 10 lines + description_
 
 ```
 function reverse(string) {
