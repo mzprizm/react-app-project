@@ -1,6 +1,6 @@
 ![](corgi-carousel.gif)
 
-## Project Overview
+## Project Overview: Infinite Jokes Generator
 
 ### Project Links
 
@@ -40,8 +40,11 @@ It supports a variety of filters that can be applied to get just the right jokes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- to do after approval -- [add link to your wireframes]()
+- [wireframes](https://res.cloudinary.com/mzprizm/image/upload/v1585315843/Screen_Shot_2020-03-27_at_6.29.35_AM_l3ljpo.png)
 - [react architecture](https://docs.google.com/drawings/d/1JHA2GmCaWnYUhfoBDY1f9NPjtdV8rhGYHhxbOGapDYw/edit)
+
+### Time/Priority Matrix
+[Time-priority Matrix](https://docs.google.com/drawings/d/1TO5TRVcUEK9qGF6cnxtz1UyaMwTM2WM7zHg9Yfhz1CU/edit)
 
 ### MVP / Post - MVP
 #### MVP 
@@ -51,7 +54,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 #### PostMVP 
 
-- Add localStorage or firebase for storage
+- Add another API or search options, for extra fun / complexity
 
 ### Components
 | Component | Description | 
@@ -72,7 +75,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | Total |MVP | 31 hrs| 
 
 ### Additional Libraries
-(list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc.) 
+(list supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc.) 
 
 ### Code Snippet
 
