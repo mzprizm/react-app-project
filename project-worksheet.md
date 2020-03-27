@@ -13,15 +13,17 @@
 
 ### API
 
-The API I have chosen is [JokeAPI](https://sv443.net/jokeapi/v2) is a RESTful API that serves uniformly and well formatted jokes.
-It can be used without any API token, membership, registration or payment. It supports a variety of filters that can be applied to get just the right jokes you need.
+The API I have chosen is either 1 "Joke API" or 2 "Official Joke API" -- both return 2-part joke as object. No private key required.
+
+1. "[JokeAPI](https://sv443.net/jokeapi/v2) is a RESTful API that serves uniformly and well formatted jokes.
+It can be used without any API token, membership, registration or payment. It supports a variety of filters that can be applied to get just the right jokes you need." [my API link](https://sv443.net/jokeapi/v2/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist&type=twopart)
 
 ```
 {
 "category": "Programming",
 "type": "twopart",
-"setup": "Why are modern programing languages so materialistic?",
-"delivery": "Because they are object oriented.",
+"setup": "Why does no one like SQLrillex?",
+"delivery": "He keeps dropping the database.",
 "flags": {
 "nsfw": false,
 "religious": false,
@@ -29,11 +31,20 @@ It can be used without any API token, membership, registration or payment. It su
 "racist": false,
 "sexist": false
 },
-"id": 21,
+"id": 13,
 "error": false
 }
 ```
 
+2. [Official Joke API](https://official-joke-api.appspot.com/random_joke) "The majority of these jokes were contributed by joke-loving coders around the world!"
+```
+{
+"id": 354,
+"type": "general",
+"setup": "Why didn’t the skeleton cross the road?",
+"punchline": "Because he had no guts."
+}
+```
 
 ### Wireframes
 
