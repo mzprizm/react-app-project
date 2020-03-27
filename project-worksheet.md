@@ -41,23 +41,19 @@ It supports a variety of filters that can be applied to get just the right jokes
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
 - to do after approval -- [add link to your wireframes]()
-- [add link to your react architecture]()
+- [react architecture](https://docs.google.com/drawings/d/1JHA2GmCaWnYUhfoBDY1f9NPjtdV8rhGYHhxbOGapDYw/edit)
 
-
-#### MVP/PostMVP
-
-#### MVP EXAMPLE
+### MVP / Post - MVP
+#### MVP 
 - Find and use external api 
 - Render data on page 
 - Allow user to interact with the page
 
-#### PostMVP EXAMPLE
+#### PostMVP 
 
 - Add localStorage or firebase for storage
 
-## Components
-Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
-
+### Components
 | Component | Description | 
 | --- | :---: |  
 | App | This will make the initial data pull and include React Router| 
@@ -70,8 +66,10 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | prep | MVP | 6hrs|
 | Working with API | MVP | 3hrs| 
 | Building Components + Hooks | MVP | 12hrs| 
+| Styling | MVP | 2| 
+| Getting support | MVP | 3hrs| 
 | Finishing up | MVP | 5hr | 
-| Total |MVP | 26 hrs| 
+| Total |MVP | 31 hrs| 
 
 ### Additional Libraries
 (list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc.) 
