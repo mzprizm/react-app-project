@@ -4,20 +4,35 @@
 
 ### Project Links
 
-- [github repo](https://github.com/mzprizm/react-app-project)
-- [add your deployment link]()
+- [carolyn's github repo](https://github.com/mzprizm/react-app-project)
+- [add deployment link]()
 
 ### Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+My project will be a jokes generator that serves up 2-part programming jokes using a public API. When the button is clicked, a joke is generated. After that, I might add a matching gif to go with the joke using Giphy API. I will also have an About page. This app will be mobile-first design, responsive. 
 
 ### API
 
-Use this section to include info about the API you have chosen and a code snippet of the data that it returns and is required for your project. 
-
+The API I have chosen is [JokeAPI](https://sv443.net/jokeapi/v2) is a RESTful API that serves uniformly and well formatted jokes.
+It can be used without any API token, membership, registration or payment.
+It supports a variety of filters that can be applied to get just the right jokes you need.
 
 ```
-{data: {} }
+{
+"category": "Programming",
+"type": "twopart",
+"setup": "Why are modern programing languages so materialistic?",
+"delivery": "Because they are object oriented.",
+"flags": {
+"nsfw": false,
+"religious": false,
+"political": false,
+"racist": false,
+"sexist": false
+},
+"id": 21,
+"error": false
+}
 ```
 
 
@@ -29,7 +44,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 - [add link to your react architecture]()
 
 
-#### MVP/PostMVP - 5min
+#### MVP/PostMVP
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
@@ -51,7 +66,6 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | --- | :---: |  
 | App | This will make the initial data pull and include React Router| 
 | Header | This will render the header include the nav | 
-| Footer | This will render the header include the nav | 
 
 | Component | Priority | Estimated Time | 
 | --- | :---: |  :---: | 
