@@ -2,6 +2,7 @@
 
 ## Project Overview: Infinite Jokes Generator
 
+_because we could all use a few more laughs these days!_ 😄
 ### Project Links
 
 - [carolyn's github repo](https://github.com/mzprizm/react-app-project)
