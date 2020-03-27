@@ -1,3 +1,5 @@
+![](corgi-carousel.gif)
+
 ## Project Overview
 
 ### Project Links
