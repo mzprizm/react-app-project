@@ -66,7 +66,8 @@ It supports a variety of filters that can be applied to get just the right jokes
 | --- | :---: |  :---: | 
 | prep | MVP | 6hrs|
 | Working with API | MVP | 3hrs| 
-| Building Components + Hooks | MVP | 12hrs| 
+| Building Components | MVP | 4 hrs| 
+| Hooks, states etc | MVP | 4 hrs| 
 | Styling | MVP | 2| 
 | Getting support | MVP | 3hrs| 
 | Finishing up | MVP | 5hr | 
