@@ -1,5 +1,9 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
 .App {
-  font-family: sans-serif;
+  font-family: helvetica, sans-serif;
   text-align: center;
 }
 
@@ -12,4 +16,14 @@ button {
   font-size: 1.15em;
   padding: 15px;
   border: 2px solid black;
+}
+
+
+.jokes-row-revealed {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.jokes-row-concealed {
+	font-weight: lighter;
 }

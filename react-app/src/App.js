@@ -1,31 +1,38 @@
+/* IMPORTS */
 import React, { useState } from "react";
 import "./styles.css";
 import Button from "./Components/Button";
 import JokeSetup from "./Components/JokeSetup";
 import JokePunchline from "./Components/JokePunchline";
-import colors from "./colors.js";
 
 export default function App() {
-  // const [hidden, setHidden] = useState(true);
-
+/* USESTATES */ 
   const [json, setJSON] = useState("jokesURL");
   const [showing, setShowing] = useState(false);
   const [concealedPunchline, setConcealedPunchline] = useState(true);
+  const [randomcolor, setRandomColor] = useState('');
 
+/* ARRAY */ 
+  const randomcolors = [ "#DC143C", "#FF4500", "#0000FF", "#4B0082", "#8F00FF", "#20B2AA", "#1E90FF", "#483D8B", "#BC8F8F", "#FF1493", "#3CB371", "#FF8C00" ]
+
+/* FUNCTIONS */ 
   const handleSubmitonApp = async () => {
     const jokesURL = `https://official-joke-api.appspot.com/jokes/general/random`;
     let res = await fetch(jokesURL);
     let json = await res.json();
-    console.log("adding joke json object", json);
     setJSON(json);
     setShowing(true);
     setConcealedPunchline(true);
-    // console.log("App - setshowing - showing: ", showing);
-    // console.log("App - sethidden - hidden: ", hidden);
+    setRandomColor(makeRandomColor());
   };
 
-  // console.log("App - hidden value: ", hidden)
+  function makeRandomColor() {
+    let randomIndex = Math.floor((Math.random()*(randomcolors.length)))
+    return randomcolors[randomIndex]; 
+  };
 
+/* Render */ 
+  /* first render */ 
   if (!showing)
     return (
       <>
@@ -37,6 +44,9 @@ export default function App() {
         </div>
       </>
     );
+ 
+
+  /* after the first time, renders this: */
   else
     return (
       <>
@@ -48,6 +58,7 @@ export default function App() {
             json={json}
             concealedPunchline={concealedPunchline}
             setConcealedPunchline={setConcealedPunchline}
+            randomcolor={randomcolor}
           />
           <br />
           <Button handleSubmitonApp={handleSubmitonApp} />
