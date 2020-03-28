@@ -1,16 +1,15 @@
 import React from "react";
 
-function Button(props) {
-  const handleSubmit = e => {
+export default function Button(props) {
+  console.log("Button.js - is returning");
+  const handleButtonClick = e => {
     e.preventDefault();
-    props.handleSubmit();
+    props.handleSubmitonApp();
   };
 
   return (
-    <button type="button" onClick={handleSubmit}>
-      get joke!
+    <button onClick={handleButtonClick}>
+      get random joke!
     </button>
   );
-}
-
-export default Button;
+};
