@@ -3,6 +3,7 @@ import "./styles.css";
 import Button from "./Components/Button";
 import JokeSetup from "./Components/JokeSetup";
 import JokePunchline from "./Components/JokePunchline";
+import colors from "./colors.js";
 
 export default function App() {
   // const [hidden, setHidden] = useState(true);
