@@ -4,6 +4,8 @@ import "./styles.css";
 import Button from "./Components/Button";
 import JokeSetup from "./Components/JokeSetup";
 import JokePunchline from "./Components/JokePunchline";
+import About from "./Components/About";
+import Link from "react-router-dom";
 
 export default function App() {
 /* USESTATES */ 
@@ -37,7 +39,6 @@ export default function App() {
     return (
       <>
         <div className="App">
-          <h1>Infinite Jokes Generator 3.0</h1>
           <br />
           <br />
           <Button handleSubmitonApp={handleSubmitonApp} />
@@ -50,8 +51,8 @@ export default function App() {
   else
     return (
       <>
+        
         <div className="App">
-          <h1>Infinite Jokes Generator 3.0</h1>
           <JokeSetup json={json} />
           <br />
           <JokePunchline

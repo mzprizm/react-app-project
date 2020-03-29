@@ -5,6 +5,19 @@
 .App {
   font-family: helvetica, sans-serif;
   text-align: center;
+  border: 1px solid blue;
+}
+
+.Bridge-App {
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  border: 1px solid pink;
+}
+
+.about-row {
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  border: 1px solid green;
 }
 
 .reveal {

@@ -1,12 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import App from "./App";
+import Bridge from "./Components/Bridge";
+
+import { BrowserRouter } from 'react-router-dom';
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    	<Bridge />
+    </BrowserRouter>
   </React.StrictMode>,
   rootElement
 );
