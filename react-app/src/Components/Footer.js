@@ -6,7 +6,6 @@ export default function Footer() {
   return (
     <>
       <div className="footer">
-        <br />
         <p>copyright 2020 </p>
       </div>
     </>

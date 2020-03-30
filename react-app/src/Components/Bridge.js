@@ -3,7 +3,9 @@ import App from "../App";
 import About from "./About";
 import Header from "./Header";
 import Footer from "./Footer";
-import { Route, Link, Redirect, Switch } from 'react-router-dom';
+import Rainbow from "./Rainbow";
+import Flex from "./Flex";
+import { Switch, Route, Redirect } from 'react-router-dom';
 
 export default function Bridge() {
   console.log("About.js: ");
@@ -16,12 +18,14 @@ export default function Bridge() {
       <Switch>
 	      <Route exact path="/" component={App}/>
 	      <Route exact path="/App" component={App}/>
-	      <Route exact path="/about" component={About}/>
-       <Route path="/" component={App}/>
-       <Redirect to="/" />
+	      <Route exact path="/About" component={About}/>
+        <Route exact path="/Rainbow" component={Rainbow}/>
+       <Redirect to="/"/>
        </Switch>
        <hr />
-       <Footer />
+       <Flex>
+        <Footer />
+      </Flex>
       </div>
     </>
   );

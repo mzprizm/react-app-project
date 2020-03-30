@@ -4,7 +4,6 @@ import "./styles.css";
 import Button from "./Components/Button";
 import JokeSetup from "./Components/JokeSetup";
 import JokePunchline from "./Components/JokePunchline";
-import About from "./Components/About";
 import Link from "react-router-dom";
 
 export default function App() {
@@ -60,6 +59,7 @@ export default function App() {
             concealedPunchline={concealedPunchline}
             setConcealedPunchline={setConcealedPunchline}
             randomcolor={randomcolor}
+            randomcolors={[randomcolors]}
           />
           <br />
           <Button handleSubmitonApp={handleSubmitonApp} />

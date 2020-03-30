@@ -20,12 +20,21 @@
   border: 1px solid green;
 }
 
+.header-row {
+  border: 1px solid purple;
+}
+
+.header-row {
+  border: 1px solid orange;
+}
+
 .reveal {
   font-style: italic;
 }
 
 
 button {
+  font-family: helvetica, sans-serif;
   font-size: 1.15em;
   padding: 15px;
   border: 2px solid black;
