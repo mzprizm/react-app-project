@@ -49,8 +49,7 @@ The API I have chosen is "Official Joke API" -- returns a 2-part joke. No privat
 | Component | Description | 
 | --- | :---: |  
 | Index | Renders Bridge which renders App| 
-| App | Renders Jokes This will make the initial data pull and include React Router| 
-	JokeSetup & JokePunchline
+| App, JokeSetup & JokePunchline | Renders Jokes This will make the initial data pull and include React Router| 
 | Header | This will render the header include the nav | 
 | Footer | just simple | 
 | Main | This will render the joke and button | 
