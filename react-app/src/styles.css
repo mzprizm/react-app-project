@@ -20,12 +20,11 @@
   border: 1px solid green;
 }
 
-.header-row {
-  border: 1px solid purple;
-}
 
-.header-row {
+.title-row {
   border: 1px solid orange;
+  display: flex;
+  flex-direction: row;
 }
 
 .reveal {

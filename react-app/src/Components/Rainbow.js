@@ -1,4 +1,5 @@
 import React from "react";
+import RainbowDivs from "./RainbowDivs";
 
 function Rainbow(props) {
   // const joke = props;
@@ -8,9 +9,10 @@ function Rainbow(props) {
 
   return (
     <>
-      <div className="rainbow-row">
+      <div className="rainbow-row" style={{background: "blue"}}>
         <br />
-        Colors Displayed
+        Colors Displayed by Rainbow
+        <RainbowDivs />
       </div>
     </>
   );

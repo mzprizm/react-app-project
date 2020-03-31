@@ -1,25 +1,21 @@
 import React from "react";
-import App from App.js;
+import App from "../App";
 
-function RainbowDivs = props => {
-	// const randomcolors = props.randomcolors.map( (d,i) => {]
+export default function RainbowDivs() {
+	// const randomcolors = props.randomcolors.map( (color,i) => {]
 	// 	return (
-	// 		RainboDiv)})
-  // const joke = props;
-  // console.log(joke);
-
-// randomcolors.map
+	// 		RainbowDiv)})
+ //  const joke = props;
 
   return (
     <>
       <div className="rainbow-row">
         <br />
-        Colors Displayed
-      </div>
-      {<div style={{background: randomcolors.map>}
+        <p>Colors Displayed by RainbowDivs via Rainbow.js </p>
+        <div style={{background: "green"}}>
+        <p>random text in rainbow div</p>
+        </div>
       </div>
     </>
   );
-}
-
-export default RainbowDivs;
+};

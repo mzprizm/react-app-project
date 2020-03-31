@@ -1,5 +1,5 @@
 import React from "react";
-import Social from "./Social.js";
+import Flex from "./Flex";
 import { Link } from 'react-router-dom';
 
 
@@ -7,23 +7,19 @@ export default function Header() {
 
   return (
     <>
-      <div className="header-row">
-        <div>
+    <Flex alignItems="top" display="block" flexDirection="column" justifyContent="flex-end">
           <h1>Infinite Jokes Generator 3.0</h1>
-        </div>
-          <div>
-            <Link to="/About">ABOUT</Link>
-          </div>
-          <div>
-            <Link to="/App">JOKES</Link>
-           </div>
-          <div>
-           <Social />
-           </div>
-            <div>
-              <Link to="/Rainbow">RAINBOW</Link>
-            </div>
-      </div>
-    </>
+      </Flex>
+      <Flex alignItems="top" flexDirection="row" justifyContent="center">
+            <div><Link to="/About">ABOUT</Link></div>
+            <br />
+            <div><Link to="/App">JOKES</Link></div>
+            <br />
+              <div><Link to="/Rainbow">RAINBOW</Link></div>
+      </Flex>
+    <Flex alignItems="top" display="block" flexDirection="column" justifyContent="flex-end">
+       <span>a place to be delighted</span>
+    </Flex>
+        </>
   );
 }

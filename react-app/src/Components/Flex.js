@@ -13,11 +13,3 @@ export default function Flex(props) {
     </div>
   )
 }
-
-
-
-/*
-// <Flex alignItems="top" display="block" flexDirection="column" justifyContent="flex-end">
-//   <span>hi</span>
-// </Flex>
-// */
