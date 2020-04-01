@@ -23,7 +23,7 @@ export default function Bridge() {
        <Redirect to="/"/>
        </Switch>
        <hr />
-       <Flex>
+       <Flex flex-wrap="wrap" flexDirection="row" justify-content="center">
         <Footer />
       </Flex>
       </div>

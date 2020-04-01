@@ -9,9 +9,7 @@ function Rainbow(props) {
 
   return (
     <>
-      <div className="rainbow-row" style={{background: "blue"}}>
-        <br />
-        Colors Displayed by Rainbow
+      <div style={{background: "gray", color: "white", padding: "20px"}}>
         <RainbowDivs />
       </div>
     </>
