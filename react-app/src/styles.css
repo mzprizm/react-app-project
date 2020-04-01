@@ -7,6 +7,12 @@
   text-align: center;
 }
 
+h1 {
+  letter-spacing: 2px;
+  font-weight: lighter;
+  padding: 15px;
+}
+
 .Bridge-App {
   font-family: helvetica, sans-serif;
   text-align: center;
@@ -21,6 +27,11 @@
   font-style: italic;
 }
 
+.footer {
+  color: gray;
+  font-style: light;
+  font-size: .75em;
+}
 
 button {
   font-family: helvetica, sans-serif;
@@ -40,5 +51,16 @@ button {
 }
 
 .rainbowbox {
-  padding: 10px;
+  height: 100px;
+  width: 100px;
+  padding: 10px 10px;
+/*  border: 10px solid pink;*/
+  border-radius: 50px;
+  box-shadow: 6px 6px 6px black;
+}
+
+.rainbowbox:hover {
+  background-color: black;
+  box-shadow: 6px 6px 6px white;
+  top: -10px;
 }
