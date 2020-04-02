@@ -8,14 +8,14 @@ export default function Header() {
 
   return (
     <>
-    <Flex alignItems="top" display="block" flexDirection="column" justifyContent="flex-end" background-color="black" color="white">
+    <Flex alignItems="top" display="block" flexDirection="column" justifyContent="flex-end">
           <h1>Infinite Jokes Generator</h1>
       </Flex>
-      <Flex alignItems="top" flexDirection="row" justifyContent="space-around">
+      <Flex className="header-nav" alignItems="top" flexDirection="row" justifyContent="space-around" flexWrap="no-wrap">
             <div></div>
             <div></div>
             <div className="header-link"><Link to="/About"><Emoji symbol="✨" label="sparkles"/>
- ABOUT <Emoji symbol="✨" label="sparkles"/></Link></div>
+ <span font-color="black">ABOUT</span> <Emoji symbol="✨" label="sparkles"/></Link></div>
             <br />
             <div className="header-link"><Link to="/App"><Emoji symbol="✨" label="sparkles"/>JOKES<Emoji symbol="✨" label="sparkles"/></Link></div>
             <br />

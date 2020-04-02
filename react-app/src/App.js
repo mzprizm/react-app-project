@@ -4,7 +4,6 @@ import "./styles.css";
 import Button from "./Components/Button";
 import JokeSetup from "./Components/JokeSetup";
 import JokePunchline from "./Components/JokePunchline";
-import Link from "react-router-dom";
 
 export default function App() {
 /* USESTATES */ 
@@ -32,8 +31,6 @@ export default function App() {
     return randomcolors[randomIndex]; 
   };
 
-/* Render */ 
-  /* first render */ 
   if (!showing)
     return (
       <>
@@ -46,13 +43,10 @@ export default function App() {
         <br />
       </>
     );
- 
 
-  /* after the first time, renders this: */
   else
     return (
       <>
-        
         <div className="App">
           <JokeSetup json={json} />
           <br />

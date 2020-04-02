@@ -9,7 +9,7 @@ function Rainbow(props) {
 
   return (
     <>
-      <div style={{background: "gray", color: "white", padding: "20px"}}>
+      <div>
         <RainbowDivs />
       </div>
     </>

@@ -1,5 +1,4 @@
 import React from "react";
-import App from "../App";
 import Flex from "./Flex";
 
 export default function RainbowDivs() {

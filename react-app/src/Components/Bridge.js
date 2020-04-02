@@ -22,7 +22,7 @@ export default function Bridge() {
         <Route exact path="/Rainbow" component={Rainbow}/>
        <Redirect to="/"/>
        </Switch>
-       <hr />
+
        <Flex flex-wrap="wrap" flexDirection="row" justify-content="center">
         <Footer />
       </Flex>

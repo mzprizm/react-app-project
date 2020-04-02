@@ -7,8 +7,7 @@ export default function About() {
     <>
       <div className="about-row">
         <br />
-        <h4>About Infinite Jokes Generator</h4>
-        <p>This is so we can all enjoy a few more laughs! Built by Carolyn Nickell.</p>
+        <p>This is so we can all enjoy a few more laughs! <br /><br /> Built by Carolyn Nickell</p>
       </div>
     </>
   );
