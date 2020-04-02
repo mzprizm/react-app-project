@@ -21,6 +21,14 @@ h1 {
 .about-row {
   font-family: helvetica, sans-serif;
   text-align: center;
+  height: 100%;
+}
+
+.header-link {
+  text-decoration: none;
+  font-style: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .reveal {
@@ -28,9 +36,14 @@ h1 {
 }
 
 .footer {
+  font-family: helvetica, sans-serif;
   color: gray;
   font-style: light;
   font-size: .75em;
+  position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
 }
 
 button {
@@ -53,14 +66,17 @@ button {
 .rainbowbox {
   height: 100px;
   width: 100px;
-  padding: 10px 10px;
-/*  border: 10px solid pink;*/
-  border-radius: 50px;
-  box-shadow: 6px 6px 6px black;
+/*  padding: 30px 30px 30px 30px;
+*/  border-radius: 50px;
+  box-shadow: 6px -6px 6px black;
 }
 
 .rainbowbox:hover {
   background-color: black;
+  box-shadow: 6px 6px 6px black;
+}
+
+.rainbowbox:active {
+  background-color: black;
   box-shadow: 6px 6px 6px white;
-  top: -10px;
 }
