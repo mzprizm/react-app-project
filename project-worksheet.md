@@ -46,15 +46,16 @@ The API I have chosen is "Official Joke API" -- returns a 2-part joke. No privat
 ### Components
 | Component | Description | 
 | --- | :---: |  
-| Index | Renders Bridge which renders App| 
+| Index | Renders Bridge| 
+| Bridge | routes between About, Jokes(home), Rainbow
 | App, JokeSetup & JokePunchline | Renders Jokes This will make the initial data pull and include React Router| 
 | Header | This will render the header include the nav | 
-| Footer | just simple | 
-| Main | This will render the joke and button | 
+| Footer | simple, hidden on rainbow page on mobile display| 
 | About | The header stays, the main switches to showing /about | 
-| Rainbow | Page showing the rainbow colors the joke punchlines rotate through, just for fun design | 
-| Social | Social Media Buttons | 
+| Rainbow, RainbowDivs | Page showing the rainbow colors the joke punchlines rotate through, just for fun design | 
 | Button | button component | 
+| Flex | flex component |
+| Emoji | emoji component |
 
 | Component | Priority | Estimated Time | 
 | --- | :---: |  :---: | 
