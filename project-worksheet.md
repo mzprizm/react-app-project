@@ -79,7 +79,7 @@ The API I have chosen is "Official Joke API" -- returns a 2-part joke. No privat
 - https://www.npmjs.com/package/react-share
 
 ### Code Snippet
-I loved how simple compnents can be and how powerful props are in React.
+I loved how simple components can be and how powerful props are in React.
 
 ```
 export default function Flex(props) {
@@ -94,3 +94,10 @@ export default function Flex(props) {
       {props.children}
     </div>
 ```
+
+### Issues
+Deployment was very tricky for me. Ultimately dragging the build folder into Netlify works great (thank you Suresh!)
+I faced many import errors along the way due to reorganizing my components and the architecture. I didn't realize at the start that I'd have a component called Flex for example. 
+
+### Future Update Plans
+Improve styling. Add icons on About page and link to youtube explanation video. Write blog post about process. Add animations. Night mode. Make the rainbow colors truly random. Add gifs of people laughing to the About page to get people in the laughing mood :) Add a page on resources about laughter.
