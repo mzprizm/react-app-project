@@ -1,0 +1,156 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+Yes
+h1 {
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+button {
+  font-family: helvetica, sans-serif;
+  font-size: 1.15em;
+  padding: 15px;
+  border: 2px solid black;
+  box-shadow: 6px -3px 3px black;
+}
+
+button:hover {
+  font-family: helvetica, sans-serif;
+  font-size: 1.15em;
+  padding: 15px;
+  border: 2px solid pink;
+  cursor: pointer;
+}
+
+button:active {
+  font-family: helvetica, sans-serif;
+  font-size: 1.15em;
+  padding: 15px;
+  border: 2px solid black;
+}
+
+.App {
+  font-family: helvetica, sans-serif;
+  text-align: center;
+}
+
+.Bridge-App {
+  font-family: helvetica, sans-serif;
+  text-align: center;
+}
+
+.about-row {
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  height: 100%;
+}
+
+.header-link {
+  text-decoration: none;
+  font-style: bold;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+}
+
+.header-link:hover {
+  text-decoration: none;
+  font-style: bold;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  color: purple;
+}
+.header-link:active {
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+}
+
+.header-nav {
+  text-decoration: none;
+}
+
+.reveal {
+  font-style: italic;
+}
+
+.footer {
+  font-family: helvetica, sans-serif;
+  color: gray;
+  font-style: light;
+  font-size: .5em;
+  position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+.jokes-row-revealed {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.jokes-row-concealed {
+	font-weight: lighter;
+}
+
+/* RAINBOW BOX DOT DIVS */
+.rainbowbox {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 50px;
+  box-shadow: 6px -6px 6px rgba(0,0,0,.6);
+}
+
+.rainbowbox:hover {
+  background-color: black;
+  box-shadow: 6px 6px 6px rgba(0,0,0,.6);
+}
+
+.rainbowbox:active {
+  background-color: black;
+  box-shadow: 6px 6px 6px white;
+}
+
+@media only screen and (max-width: 600px) {
+  .rainbowbox {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    box-shadow: 3px -3px 3px rgba(0,0,0,.6);
+  }
+  .rainbowbox:hover {
+  background-color: black;
+  box-shadow: 3px 3px 3px rgba(0,0,0,.6);
+}
+  .rainbowbox:active {
+  background-color: black;
+  box-shadow: 3px 3px 3px pink;
+}
+  h1 {
+    font-size: 1em;
+  }
+  .header-link {
+    font-size: .7em;
+  }
+  button {
+    font-size: .7em;
+    padding: 8px;
+  }
+  button:hover {
+  font-family: helvetica, sans-serif;
+  font-size: .8em;
+  padding: 8px;
+  border: 2px solid pink;
+  cursor: pointer;
+}
+  .jokes-row-revealed {
+  font-weight: bold;
+  font-size: 1em;
+}
+.footer {
+  display: none;
+}
+}
