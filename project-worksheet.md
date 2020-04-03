@@ -14,30 +14,8 @@ _because we could all use a few more laughs these days!_ 😄
 
 ### API
 
-The API I have chosen is either (1) "Joke API" or 2 "Official Joke API" -- both return 2-part joke as object. No private key required.
-
-1. **[JokeAPI](https://sv443.net/jokeapi/v2)** "is a RESTful API that serves uniformly and well formatted jokes.
-It can be used without any API token, membership, registration or payment. It supports a variety of filters that can be applied to get just the right jokes you need." [my API link](https://sv443.net/jokeapi/v2/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist&type=twopart)
-
-```
-{
-"category": "Programming",
-"type": "twopart",
-"setup": "Why does no one like SQLrillex?",
-"delivery": "He keeps dropping the database.",
-"flags": {
-"nsfw": false,
-"religious": false,
-"political": false,
-"racist": false,
-"sexist": false
-},
-"id": 13,
-"error": false
-}
-```
-
-2. **[Official Joke API](https://github.com/15Dkatz/official_joke_api)** "The majority of these jokes were contributed by joke-loving coders around the world!" All different themes of fun jokes. [my API link](https://official-joke-api.appspot.com/random_joke)
+The API I have chosen is "Official Joke API" -- returns a 2-part joke. No private key required.
+**[Official Joke API](https://github.com/15Dkatz/official_joke_api)** "The majority of these jokes were contributed by joke-loving coders around the world!" All different themes of fun jokes. [my API link](https://official-joke-api.appspot.com/random_joke)
 ```
 {
 "id": 354,
@@ -70,21 +48,32 @@ It can be used without any API token, membership, registration or payment. It su
 ### Components
 | Component | Description | 
 | --- | :---: |  
-| App | This will make the initial data pull and include React Router| 
+| Index | Renders Bridge which renders App| 
+| App, JokeSetup & JokePunchline | Renders Jokes This will make the initial data pull and include React Router| 
 | Header | This will render the header include the nav | 
+| Footer | just simple | 
 | Main | This will render the joke and button | 
 | About | The header stays, the main switches to showing /about | 
+| Rainbow | Page showing the rainbow colors the joke punchlines rotate through, just for fun design | 
+| Social | Social Media Buttons | 
+| Button | button component | 
 
 | Component | Priority | Estimated Time | 
 | --- | :---: |  :---: | 
-| prep | MVP | 6hrs|
+| prep | MVP | 8hrs|
 | Working with API | MVP | 3hrs| 
-| Building Components | MVP | 4 hrs| 
+| Building Components | MVP | 7 hrs| 
 | Hooks, states etc | MVP | 4 hrs| 
-| Styling | MVP | 2| 
+| Styling | MVP | 4 | 
 | Getting support | MVP | 3hrs| 
-| Finishing up | MVP | 4hr | 
-| Total |MVP | 26 hrs| 
+| Deployment | MVP | 2hrs| 
+| Finishing up Round 1 | MVP | 2hr | 
+| QA Round 1 | MVP | 2hr | 
+| Finishing Up Round 2 | MVP | 2hr | 
+| QA Round 2 | MVP | 1hr | 
+| ReadME| MVP | 1hr | 
+| Present | MVP | 1hr | 
+| Total |MVP | 40 hrs| 
 
 ### Additional Libraries
 _list supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc._ 
