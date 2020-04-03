@@ -1,10 +1,11 @@
 ## Project Overview: Infinite Jokes Generator
 
-_because we could all use a few more laughs these days!_ 😄
+_enjoy a few laughs!_ 😄
+
 ### Project Links
 
 - [carolyn's github repo](https://github.com/mzprizm/react-app-project)
-- [deployed on netlify https://optimistic-hermann-f8f0c5.netlify.com/](https://optimistic-hermann-f8f0c5.netlify.com/)
+- [deployed on netlify @ **https://optimistic-hermann-f8f0c5.netlify.com/**](https://optimistic-hermann-f8f0c5.netlify.com/)
 
 ### Project Description
 
